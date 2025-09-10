@@ -1,0 +1,32 @@
+p {
+	color: orange;
+}
+h1{
+	color:green;
+}
+h2{
+	color: blue;
+}
+h3{
+	color:red;
+}
+h4{
+	color: rgb(237,15,77);
+}
+h5{
+	color: #3515b0;
+}
+p{
+	width:700px;
+}
+td{
+	width:400px;
+	height:300px;
+}
+p {
+	text-align: justify;
+	width: 300px;
+}
+th {
+	text-align: left;
+}
