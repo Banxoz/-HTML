@@ -1,0 +1,135 @@
+p {
+	color: orange;
+}
+h1{
+	color:green;
+}
+h2{
+	color: blue;
+}
+h3{
+	color:red;
+}
+h4{
+	color: rgb(237,15,77);
+}
+h5{
+	color: #3515b0;
+}
+p{
+	width:700px;
+}
+td{
+	width:400px;
+	height:300px;
+}
+p {
+	text-align: justify;
+	width: 300px;
+}
+th {
+	text-align: left;
+}
+p {
+	color: orange;
+}
+h1{
+	color:green;
+}
+h2{
+	color: blue;
+}
+h3{
+	color:red;
+}
+h4{
+	color: rgb(237,15,77);
+}
+h5{
+	color: #3515b0;
+}
+p{
+	width:700px;
+}
+td{
+	width:400px;
+	height:300px;
+}
+p {
+	text-align: justify;
+	width: 300px;
+}
+th {
+	text-align: left;
+}
+h1,h2,h3{
+	text-align: center;
+	color:red;
+}
+
+h3{
+	font-size: 16px;
+}
+ul li {
+	color: red;
+}
+p i {
+	color: green;
+}
+p b i{
+	color:red;
+}
+li > b{
+	color: red
+}
+.odd{
+	color: red;
+}
+.eve{
+	color: green;
+}
+.eee{
+	color: red;
+}
+.xxx{
+	font-size: 30px;
+}
+.block1{
+	color:red;
+}
+.block2{
+	color:green;
+}
+.block3{
+	color: blue;
+}
+.block4{
+	color: red;
+}
+.block5{
+	color:green;
+}
+.eee,.zzz{
+	line-height: 1.5;
+	font-size: 30px;
+	font-family: Arial;
+}
+.eee{
+	font-size: 20px;
+}
+.eee,.zzz,.ggg{
+	text-align: center;
+	font-family: Arial;
+}
+.ggg{
+	font-size: 35px;
+}
+h3.header{
+	font-size: 30px;
+}
+h2.header{
+	font-size: 40px;
+}
+.eee i{
+	color:red;
+}
