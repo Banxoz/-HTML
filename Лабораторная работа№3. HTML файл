@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Мой сайт</title>
-	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="lab3done.css">
 </head>
 <body>
 </body>
@@ -21,20 +21,13 @@
 	Всем привет!
 </h1>
 <h2>
-	Меня зовут Валера)
 </h2>
 <h3>
-	Я учусь в КИПУ
+	maine liebe
 </h3>
 <p>
 	<ul>
-		Рецепт блинчиков)
-		<li>молоко 500 мл</li>
-		<li>яйца 3 шт.</li>
-		<li>мука 200 г</li>
-		<li>масло сливочное (или растительное) 30 г (2 ст. ложки)</li>
-		<li>сахар 30 г (2 ст. ложки)</li>
-		<li>соль 2-3 г (1/2 ч. ложки)</li>
+	
 	</ul>
 </p>
 
@@ -219,3 +212,4 @@
 <div id="kg">
 	text text text text
 </div>
+
