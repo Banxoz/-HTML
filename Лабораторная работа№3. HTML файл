@@ -1,165 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>This is the title</title>
-	</head>
-	<body>
-		<meta charset="utf-8">
-		<title>This is the title</title>
-		<link rel="stylesheet" href="lab3css.css">
-
-		This is the main content of the page.
-	</body>
-
-	<a href="https://www.google.com">link</a>
-
-	<h1>Page</h1>
-	<a href="1index.html">link on index</a>
-
-		<h1>Page</h1>
-	<a href="2index.html">link on index</a>
-
-		<h1>Page</h1>
-	<a href="3index.html">link on index</a>
-
-    <p>
-	This is a paragraph 1.
-</p>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+</body>
+</html>
 <p>
-	This is a paragraph 2.
+	This is some <i>text</i> in paragraph.
 </p>
-<p>
-	This is a paragraph 3.
-</p>
-<h1>Heading h1</h1>
-<h2>Heading h2</h2>
-Привет Мир
-<h2>Heading h2</h2>
-Привет Мир
-Привет Мир
 
-Пивет Мир
+<ul>
+	<li>text <i>italic</i> text</li>
+	<li>text <i>italic</i> text</li>
+	<li>text <i>italic</i> text</li>
+</ul>
+<h1>
+	Всем привет!
+</h1>
+<h2>
+	Меня зовут Валера)
+</h2>
 <h3>
-	Heading h3
-
+	Я учусь в КИПУ
 </h3>
-<h4>
-	Heading h4
-</h4>
-<h5>
-	Heading H5
-	HELLO WORLD
-</h5>
-<h6>
-	Heading h6
-	Goodbye world
-</h6>
 <p>
-	This is regular text and this is <b>bold</b> text.
-</p>
-<p>
-	This is regular text, and this is <i>italic</i> text.
-</p>
-<ul>
-	<li>black</li>
-	<li>blue</li>
-	<li>yellow</li>
-	<li>green</li>
-	<li>red</li>
-</ul>
-
-<ol>
-	<li>Alex</li>
-	<li>Jane</li>
-	<li>Mary</li>
-	<li>John</li>
-	<li>Nick</li>
-</ol>
-
-<table border="1">
-	<!--Это будет первый ряд таблицы:-->
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>2</td>
-	</tr>
-	
-	<!--Это будет второй ряд таблицы:-->
-	<tr>
-		<td>3</td>
-		<td>4</td>
-		<td>5</td>
-	</tr>
-	
-	<!--Это будет третий ряд таблицы:-->
-	<tr>
-		<td>6</td>
-		<td>7</td>
-		<td>8</td>
-	</tr>
-</table>
-
-
-<table border="1" width="300" height="200">
-	<tr>
-		<td>0</td>
-		<td>1</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>4</td>
-		<td>5</td>
-	</tr>
-	<tr>
-		<td>6</td>
-		<td>7</td>
-		<td>8</td>
-	</tr>
-</table>
-
-<table border="1" width="300">
-	<tr>
-		<th>Product</th>
-		<th>Price</th>
-		<th>Quantity</th>
-	</tr>
-	<tr>
-		<td>Apples</td>
-		<td>100</td>
-		<td>5kg</td>
-	</tr>
-	<tr>
-		<td>Oranges</td>
-		<td>200</td>
-		<td>6kg</td>
-	</tr>
-	<tr>
-		<td>Bananas</td>
-		<td>300</td>
-		<td>7kg</td>
-	</tr>
-</table>
-<table border="2">
-	<tr>
-		<td>John</td>
-		<td>Smith</td>
-		<td>200$</td>
-	</tr>
-	<tr>
-		<td>Nick</td>
-		<td>Mayers</td>
-		<td>300$</td>
-	</tr>
-	<tr>
-		<td>Alex</td>
-		<td>Jonson</td>
-		<td>400$</td>
-	</tr>
-</table>
-<p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.
+	<ul>
+		Рецепт блинчиков)
+		<li>молоко 500 мл</li>
+		<li>яйца 3 шт.</li>
+		<li>мука 200 г</li>
+		<li>масло сливочное (или растительное) 30 г (2 ст. ложки)</li>
+		<li>сахар 30 г (2 ст. ложки)</li>
+		<li>соль 2-3 г (1/2 ч. ложки)</li>
+	</ul>
 </p>
 
 <ul>
@@ -175,12 +51,14 @@
 <p>
 	paragraph text <i>italic</i>
 </p>
+
 <p>
 	paragraph text <b><i>bold italic</i></b>
 </p>
 <p>
 	paragraph text <i>italic</i>
 </p>
+
 <ul>
 	<li>
 		<i>italic</i>
@@ -193,6 +71,7 @@
 		<b><i>bold italic</i></b>
 	</li>
 </ul>
+
 <ul>
 	<li class="odd">text</li>
 	<li class="eve">text</li>
@@ -201,6 +80,7 @@
 	<li class="odd">text</li>
 	<li class="eve">text</li>
 </ul>
+
 <h2 class="eee">Title</h2>
 <p class="eee">
 	paragraph
@@ -219,14 +99,16 @@
 	<li>text</li>
 	<li>text</li>
 </ul>
+
 <p>
-	Lorem ipsum <span class="xxx">dolor 
-		sit</span> amet. 
+	Lorem ipsum <span class="xxx">dolor sit</span> amet.
 </p>
 <p>
 	<span class="xxx">Lorem ipsum</span> dolor sit amet.
 </p>
-<div class="block1">
+
+
+<div class="red">
 	<h2>Title</h2>
 	<p>
 		text
@@ -235,34 +117,7 @@
 		text
 	</p>
 </div>
-<div class="block2">
-	<h2>Title</h2>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-</div>
-<div class="block3">
-	<h2>Title</h2>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-</div>
-<div class="block4">
+<div class="green">
 	<h2>Title</h2>
 	<p>
 		text
@@ -271,7 +126,7 @@
 		text
 	</p>
 </div>
-<div class="block5">
+<div class="red">
 	<h2>Title</h2>
 	<p>
 		text
@@ -280,7 +135,7 @@
 		text
 	</p>
 </div>
-<div class="block4">
+<div class="green">
 	<h2>Title</h2>
 	<p>
 		text
@@ -289,31 +144,78 @@
 		text
 	</p>
 </div>
-<div class="block5">
-	<h2>Title</h2>
-	<p>
-		text
-	</p>
-	<p>
-		text
-	</p>
-</div>
+
+<p class="eee">Тралалейла Тралала</p>
+
+<div class="zzz">Паркодила паркола</div>
+
+<h1 class="ggg">Тутун Сагур</h1>
+
+<span class="eee">Голубино Шпиониро</span>
+
+<p class="zzz">Балерино Капучино</p>
+
 <h2 class="header">text</h2>
 <h2 class="header">text</h2>
 <h3 class="header">text</h3>
 <h3 class="header">text</h3>
 
-<p class="eee">
-	text <i>italic</i>
-</p>
-<p class="eee">
-	text <i>italic</i>
-</p>
-<div class="eee">
-	text <i>italic</i>
-</div>
-<div class="eee">
-	text <i>italic</i>
+<a href="#">link</a>
+
+<a href="#" class="eee">link</a>
+<a href="#" class="eee">link</a>
+<a href="#" class="eee">link</a>
+
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+
+<h2>Стилизация пустых тегов:</h2>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li></li>
+	<li>5</li>
+	<li></li>
+	<li>7</li>
+	<li></li>
+</ul>
+
+<p>Красные квадраты - пустые теги &lt;li&gt;</p>
+<p>Серые квадраты с галочкой - непустые теги &lt;li&gt;</p>
+
+<div id="elem">
+	Lorem ipsum dolor sit amet.
 </div>
 
-</html>
+<div id="xhunter">
+</div>
+
+<div id="kg">
+	text text text text
+</div>
