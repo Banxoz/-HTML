@@ -1,135 +1,221 @@
-p {
-	color: orange;
-}
-h1{
-	color:green;
-}
-h2{
-	color: blue;
-}
-h3{
-	color:red;
-}
-h4{
-	color: rgb(237,15,77);
-}
-h5{
-	color: #3515b0;
-}
-p{
-	width:700px;
-}
-td{
-	width:400px;
-	height:300px;
-}
-p {
-	text-align: justify;
-	width: 300px;
-}
-th {
-	text-align: left;
-}
-p {
-	color: orange;
-}
-h1{
-	color:green;
-}
-h2{
-	color: blue;
-}
-h3{
-	color:red;
-}
-h4{
-	color: rgb(237,15,77);
-}
-h5{
-	color: #3515b0;
-}
-p{
-	width:700px;
-}
-td{
-	width:400px;
-	height:300px;
-}
-p {
-	text-align: justify;
-	width: 300px;
-}
-th {
-	text-align: left;
-}
-h1,h2,h3{
-	text-align: center;
-	color:red;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+</body>
+</html>
+<p>
+	This is some <i>text</i> in paragraph.
+</p>
 
-h3{
-	font-size: 16px;
-}
-ul li {
-	color: red;
-}
-p i {
-	color: green;
-}
-p b i{
-	color:red;
-}
-li > b{
-	color: red
-}
-.odd{
-	color: red;
-}
-.eve{
-	color: green;
-}
-.eee{
-	color: red;
-}
-.xxx{
-	font-size: 30px;
-}
-.block1{
-	color:red;
-}
-.block2{
-	color:green;
-}
-.block3{
-	color: blue;
-}
-.block4{
-	color: red;
-}
-.block5{
-	color:green;
-}
-.eee,.zzz{
-	line-height: 1.5;
-	font-size: 30px;
-	font-family: Arial;
-}
-.eee{
-	font-size: 20px;
-}
-.eee,.zzz,.ggg{
-	text-align: center;
-	font-family: Arial;
-}
-.ggg{
-	font-size: 35px;
-}
-h3.header{
-	font-size: 30px;
-}
-h2.header{
-	font-size: 40px;
-}
-.eee i{
-	color:red;
-}
+<ul>
+	<li>text <i>italic</i> text</li>
+	<li>text <i>italic</i> text</li>
+	<li>text <i>italic</i> text</li>
+</ul>
+<h1>
+	Всем привет!
+</h1>
+<h2>
+	Меня зовут Валера)
+</h2>
+<h3>
+	Я учусь в КИПУ
+</h3>
+<p>
+	<ul>
+		Рецепт блинчиков)
+		<li>молоко 500 мл</li>
+		<li>яйца 3 шт.</li>
+		<li>мука 200 г</li>
+		<li>масло сливочное (или растительное) 30 г (2 ст. ложки)</li>
+		<li>сахар 30 г (2 ст. ложки)</li>
+		<li>соль 2-3 г (1/2 ч. ложки)</li>
+	</ul>
+</p>
+
+<ul>
+	<li>text <i>italic</i></li>
+	<li>text <i>italic</i></li>
+	<li>text <i>italic</i></li>
+	<li>text <i>italic</i></li>
+</ul>
+
+<p>
+	paragraph text <i>italic</i>
+</p>
+<p>
+	paragraph text <i>italic</i>
+</p>
+
+<p>
+	paragraph text <b><i>bold italic</i></b>
+</p>
+<p>
+	paragraph text <i>italic</i>
+</p>
+
+<ul>
+	<li>
+		<i>italic</i>
+		<b>bold</b>
+		<b><i>bold italic</i></b>
+	</li>
+	<li>
+		<i>italic</i>
+		<b>bold</b>
+		<b><i>bold italic</i></b>
+	</li>
+</ul>
+
+<ul>
+	<li class="odd">text</li>
+	<li class="eve">text</li>
+	<li class="odd">text</li>
+	<li class="eve">text</li>
+	<li class="odd">text</li>
+	<li class="eve">text</li>
+</ul>
+
+<h2 class="eee">Title</h2>
+<p class="eee">
+	paragraph
+</p>
+<p class="eee">
+	paragraph
+</p>
+<p>
+	paragraph without class
+</p>
+
+<ul class="eee">
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+
+<p>
+	Lorem ipsum <span class="xxx">dolor sit</span> amet.
+</p>
+<p>
+	<span class="xxx">Lorem ipsum</span> dolor sit amet.
+</p>
+
+
+<div class="red">
+	<h2>Title</h2>
+	<p>
+		text
+	</p>
+	<p>
+		text
+	</p>
+</div>
+<div class="green">
+	<h2>Title</h2>
+	<p>
+		text
+	</p>
+	<p>
+		text
+	</p>
+</div>
+<div class="red">
+	<h2>Title</h2>
+	<p>
+		text
+	</p>
+	<p>
+		text
+	</p>
+</div>
+<div class="green">
+	<h2>Title</h2>
+	<p>
+		text
+	</p>
+	<p>
+		text
+	</p>
+</div>
+
+<p class="eee">Тралалейла Тралала</p>
+
+<div class="zzz">Паркодила паркола</div>
+
+<h1 class="ggg">Тутун Сагур</h1>
+
+<span class="eee">Голубино Шпиониро</span>
+
+<p class="zzz">Балерино Капучино</p>
+
+<h2 class="header">text</h2>
+<h2 class="header">text</h2>
+<h3 class="header">text</h3>
+<h3 class="header">text</h3>
+
+<a href="#">link</a>
+
+<a href="#" class="eee">link</a>
+<a href="#" class="eee">link</a>
+<a href="#" class="eee">link</a>
+
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+<ol>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+</ol>
+
+
+<h2>Стилизация пустых тегов:</h2>
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li></li>
+	<li>5</li>
+	<li></li>
+	<li>7</li>
+	<li></li>
+</ul>
+
+<p>Красные квадраты - пустые теги &lt;li&gt;</p>
+<p>Серые квадраты с галочкой - непустые теги &lt;li&gt;</p>
+
+<div id="elem">
+	Lorem ipsum dolor sit amet.
+</div>
+
+<div id="xhunter">
+</div>
+
+<div id="kg">
+	text text text text
+</div>
