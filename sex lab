@@ -1,0 +1,242 @@
+.parent {
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent {
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+}
+.child {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent1 {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent2 {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent3 {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent4 {
+	display: flex;
+	flex-direction:  column;     /* главная ось вниз, поперечная вправо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent5 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: flex-end; /* блоки к началу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+        width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child5 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent6 {
+	display: flex;
+	flex-direction:  column;   /* главная ось вниз, поперечная вправо */
+	justify-content: flex-end; /* блоки к концу главной оси */
+	align-items:     flex-end; /* блоки к концу поперечной оси */
+     width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent7 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: flex-start; /* блоки к началу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent8 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к началу главной оси */
+	align-items:     center;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent9 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к началу главной оси */
+	align-items:     stretch;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent10 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к началу главной оси */
+	align-items: flex-end;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent11 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к началу главной оси */
+	align-items:     center;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent11 {
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: flex-end; /* блоки к началу главной оси */
+	align-items:   center;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.parent12 {
+	display: flex;
+	flex-direction:  row;
+    gap: 10px;        /* главная ось направо, поперечная вниз */
+	justify-content:center ; /* блоки к началу главной оси */
+	align-items:   center;   /* блоки к концу поперечной оси */
+    width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <div class="parent">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+</div>
+<div class="parent1">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+
+</div>
+<div class="parent2">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent3">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent4">
+	<div class="child">5</div>
+	<div class="child">4</div>
+	<div class="child">3</div>
+	<div class="child">2</div>
+	<div class="child">1</div>
+</div>
+<div class="parent5">
+	<div class="child">5</div>
+	<div class="child">4</div>
+	<div class="child">3</div>
+	<div class="child">2</div>
+	<div class="child">1</div>
+</div>
+<div class="parent6">
+	<div class="child">5</div>
+	<div class="child">4</div>
+	<div class="child">3</div>
+	<div class="child">2</div>
+	<div class="child">1</div>
+</div>
+<div class="parent7">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent8">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent9">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent10">
+	<div class="child">1</div>
+	<div class="child">2</div>
+	<div class="child">3</div>
+	<div class="child">4</div>
+	<div class="child">5</div>
+</div>
+<div class="parent11">
+	<div class="child">5</div>
+	<div class="child">4</div>
+	<div class="child">3</div>
+	<div class="child">2</div>
+	<div class="child">1</div>
+</div>
+<div class="parent12">
+	<div class="child">5</div>
+	<div class="child">4</div>
+	<div class="child">3</div>
+	<div class="child">2</div>
+	<div class="child">1</div>
+</div>
+</body>
+</html>
