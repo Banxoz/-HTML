@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="Оформление.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+background-repeat:repeat-y;
+background-image: url("https://code.mu/cont/markup/book/prime/decoration/background-images/@/image/bg.png");
+	}
+body1 {
+	background-repeat: repeat-x;
+	background-image: url("https://code.mu/cont/markup/book/prime/decoration/background-images/@/image/bg.png");
+	}			
+		
+</style>
+
+			
+
+		
+</head>
+<body>
+<div id="elem">
+	text text text	
+</div>
+<div id="elem1"></div>
+<div id="elem2"></div>
+<div id="elem3"></div>
+<div id="elem4"></div>
+<div id="elem5"></div>
+<div id="elem6"></div>
+<div class="rectangle"></div>
+<div class="frame"></div>   
+<div id="elem7"></div>
+<div id="elem8"></div>
+<div id="elem9"></div>
+<div id="elem10"></div>
+<div id="elem11"></div>
+<div id="elem12"></div>
+
+<ul>
+	<li>list watermelon</li>
+	<li>list apple</li>
+	<li>list orange</li>
+	<li>list pear</li>
+	<li>list tangerine</li>
+	<li>list peach</li>
+</ul>	
+<ul1>
+	<li>list watermelon</li>
+	<li>list apple</li>
+	<li>list orange</li>
+	<li>list pear</li>
+	<li>list tangerine</li>
+	<li>list peach</li>
+</ul1>	
+<ul2>
+	<li>list watermelon</li>
+	<li>list apple</li>
+	<li>list orange</li>
+	<li>list pear</li>
+	<li>list tangerine</li>
+	<li>list peach</li>
+</ul2>	
+<ol>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+<ol2>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+</ol2>
+<ol3>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+</ol3>
+<ol4>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+	<li>list item</li>
+</ol4>
+</body>
+</html>
