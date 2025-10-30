@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="Позиционирование.css">
+		
+		
+</head>
+<body>
+<div class="container">
+  <div class="block red"></div>
+  <div class="block blue"></div>
+  <div class="block green"></div>
+</div>
+
+<div class="container1">
+  <div class="block red1"></div>
+  <div class="block blue1"></div>
+  <div class="block green1"></div>
+</div>
+<div class="container2">
+  <div class="block red2"></div>
+  <div class="block blue2"></div>
+  <div class="block green2"></div>
+</div>
+<div class="container3">
+  <div class="block red3"></div>
+  <div class="block blue3"></div>
+  <div class="block green3"></div>
+</div>
+<div id="elem1"></div>
+<div id="elem2"></div>
+<div id="elem3"></div>
+<p>text text text</p>
+</div>
+<div class="container4">
+  <div class="main-block">Основной блок</div>
+  <div class="child-1">Элемент 1</div>
+  <div class="child-2">Элемент 2</div>
+</div>
+
+<div class="smiley">
+   <div class="nose"></div>
+   <div class="mouth"></div>
+</div>
+<div class="smiley1">
+  <div class="nose1"></div>
+  <div class="mouth1"></div>
+</div>
+
+<div class="parent">
+  <div class="child-top-right"></div>
+  <div class="child-bottom-left"></div>
+</div>
+<div id="center-block"></div>
+<div id="offset-block"></div>
+
+<div class="container5">
+  <div class="green-block5"></div>
+  <div class="red-block5 left5"></div>
+  <div class="red-block5 right5"></div>
+</div>
+<div id="wrapper">
+				<div id="elem1"></div>
+				<div id="elem2"></div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elitorire
+					aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+					fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+					sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+					ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+					ante purus lacini dui, interdum fringilla massa eros ut duir.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elitorire
+					aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+					fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+					sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+					ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+					ante purus lacini dui, interdum fringilla massa eros ut duir.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elitorire
+					aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+					fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+					sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+					ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+					ante purus lacini dui, interdum fringilla massa eros ut duir.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elitorire
+					aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+					fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+					sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+					ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+					ante purus lacini dui, interdum fringilla massa eros ut duir.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elitorire
+					aenean a dapibus magna, ac interdum nisl. Suspendisse egetil
+					fringilla nibh, eu commodo arcu. Donec lacinia tempor velite
+					sed tincidunt. Aliquam porttitor nulla purus, vel vulputater
+					ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi
+					ante purus lacini dui, interdum fringilla massa eros ut duir.
+				</p>
+			</div>
+<body>
+		
+		<div id="fixed">Новостной портал</div>
+			<div id="text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ultrices dictum. Nullam non diam vestibulum, interdum nibh quis, sollicitudin sem. Vivamus sit amet sagittis massa. Cras aliquet lacus at interdum blandit. Quisque quis tellus nunc. Cras at nisi laoreet, suscipit nibh quis, pellentesque diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam a bibendum orci. Sed fermentum consequat mauris adipiscing condimentum. Phasellus id convallis nunc. Nullam vel mollis purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras nec neque vel risus accumsan sollicitudin quis ut velit. Fusce et libero hendrerit, accumsan enim non, dictum eros. Proin sem justo, porta id magna quis, consequat scelerisque urna.
+				</p><p>Sed non ante vitae nunc lacinia tristique nec quis nisl. Integer a fringilla elit, vitae accumsan massa. Fusce ac tempor est. In ultricies mi sit amet nunc posuere eleifend. Cras vulputate hendrerit sodales. Mauris lectus magna, feugiat vitae sagittis id, suscipit ac dui. Sed a orci a ipsum iaculis gravida. Integer nec fringilla turpis. Sed dapibus turpis rutrum lacus mattis egestas. Aliquam viverra libero vitae mi pellentesque lobortis. Donec varius elit in aliquam consectetur.
+				</p><p>Mauris et metus vitae lectus interdum auctor non sit amet odio. Morbi laoreet feugiat dapibus. Nulla ultricies sollicitudin est id blandit. Fusce justo nisl, tristique id fringilla ut, consectetur eu purus. Curabitur facilisis ipsum augue, vel varius turpis malesuada eget. Pellentesque et ante vestibulum, semper lorem quis, bibendum urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean hendrerit tortor a cursus fermentum. Nunc suscipit sem laoreet interdum ullamcorper. Fusce volutpat orci ut ante aliquam, vitae cursus nulla dignissim. Fusce dignissim suscipit suscipit.
+				</p><p>Donec accumsan ut sem in tincidunt. Sed nunc felis, fermentum eu lacinia dictum, dictum congue ipsum. Nam et enim eu massa dapibus pellentesque ac id lorem. Aliquam bibendum sed enim vitae facilisis. Proin sed gravida odio, nec commodo nunc. Phasellus ac elit sodales, dignissim arcu vel, pretium odio. Duis auctor vulputate libero, eu sagittis nisi sollicitudin sed. Curabitur interdum nibh ut accumsan condimentum.
+				</p><p>Ut at pellentesque turpis. Nulla condimentum accumsan lorem at semper. Nunc dapibus luctus nulla vehicula molestie. Aliquam consectetur nisi non elit blandit, sit amet viverra elit vestibulum. Nullam risus metus, porttitor ac gravida sit amet, semper ut erat. Nulla justo urna, commodo a dolor vel, fermentum suscipit dolor. Aliquam ut orci a nunc eleifend condimentum ut id arcu. In adipiscing tempus eleifend. Praesent quis ornare metus, at bibendum leo. Suspendisse ligula risus, auctor vel pharetra at, interdum ut nunc. Vivamus porta sem et sapien cursus vestibulum. Nam faucibus nunc ut ultricies pulvinar. Nulla viverra commodo ultricies. Maecenas suscipit arcu vitae varius vulputate. Fusce volutpat molestie ligula ullamcorper ullamcorper.
+			</p></div>
+		
+		<script>
+			
+			
+		</script>
+	
+</body>
+</body>
+</html>
