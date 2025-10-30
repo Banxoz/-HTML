@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мой сайт</title>
+	<link rel="stylesheet" href="Блочная модель.css">
+		
+		
+</head>
+<body>
+<div id="elem1">
+	<div id="elem2"></div>
+</div>
+<div id="elem3">
+	<div id="elem4">
+		<div id="elem5"></div>
+</div>
+</div>
+<div class="outer-frame">
+  	<div class="inner-frame"></div>
+</div>
+  <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+    <div class="outer-box1">
+        <div class="inner-box1"></div>
+    </div>
+    <div class="outer-frame1">
+        <div class="inner-frame1"></div>
+    </div>
+    <div class="outer-frame2">
+        <div class="inner-frame2"></div>
+<div class="outer-frame3">
+  <div class="inner-frame3"></div>
+</div>
+<div class="outer-frame4">
+  <div class="inner-frame4"></div>
+</div>
+<div class="outer-frame5">
+  <div class="inner-frame5"></div>
+</div>
+<div class="text-block">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir nullam et ipsum ex. Donec ut iaculis massa. Duis vel ulamcor per dolor. Suspendisse tristique dolor risus, nec laoreet du aliquet maximus. Maecenas tempus congue arcu, si amet auctor dui efficitur in. Proin ac auctor nisi. Phasellus luctus eur neque sollicitudin rutrum. Curabitur ipsum justo, sodales in lectus non, molestie ullamcorper elit. Orciro varius natoque penatibus et magnis dis parturient montes, nascetur ridiclus mus. Nullam euismod eu metus non malesuada. Quisque quisolor.</p>
+</div>
+<div class="block-green">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.</p>
+</div>
+
+<div class="block-red">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir.</p>
+</div>
+<p> №1  (абзац) относится к блочной модели 
+№2 (жирный текст) относится к строчной модели
+№3  (заголовок второго уровня) относится к блочной модели.
+№4 (заголовок третьего уровня) также относится к блочной модели.
+№5 (наклонный текст) относится к строчной модели
+№6  (анкор, ссылка) относится к строчной  модели
+</p>
+<div class="elem6">text</div>
+<div class="elem6">text</div>
+<div class="elem6">text</div>
+<div class="parent">
+  <div class="child child-1"></div>
+  <div class="child child-2"></div>
+  <div class="child child-3"></div>
+</div>
+<div class="parent1">
+	<a href="">ссылка 1</a>
+	<a href="">ссылка 2</a>
+	<a href="">ссылка 3</a>
+</div>
+<div class="parent2">
+  <a href="">ссылка</a>
+</div>
+<div class="parent3">
+	<div class="child4">text 1</div>
+	<div class="child4">text 2</div>
+	<div class="child4">text 3</div>
+</div>
+<div class="parent4">
+	<div class="child5">text</div>
+</div>
+<div class="parent5">
+	<a href="" class="child6">text</a>
+</div>
+<div class="parent5">
+				<div class="child6">1</div>
+				<div class="child6">2</div>
+				<div class="child6">3</div>
+				<div class="child6">4</div>
+				<div class="child6">5</div>
+			</div>
+
+</body>
+</html>
