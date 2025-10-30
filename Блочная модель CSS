@@ -1,0 +1,274 @@
+#elem1 {
+    width: 400px;
+    border: 1px dashed blue;
+}
+#elem2 {
+    margin: 50px;
+    height: 300px;
+    border: 1px solid orange;
+}
+#elem3 {
+    width: 400px;
+    border: 1px dashed blue;
+}
+#elem4 {
+    margin: 25px;
+    border: 1px dashed green;
+}
+#elem5 {
+    height: 200px;
+    margin: 25px;
+    border: 1px solid red;
+}
+  .outer-frame {
+            width: 400px; 
+            height: 300px; 
+            border: 3px solid red; 
+            position: relative; 
+            margin: 50px auto; 
+        }
+ .inner-frame {
+            width: 200px; 
+            height: 150px; 
+            border: 2px solid green; 
+            position: absolute; 
+            top: 100px;
+            left: 100px; 
+        }
+.outer-box {
+            width: 300px; /* Ширина внешнего прямоугольника */
+            height: 300px; /* Высота внешнего прямоугольника */
+            border: 2px solid red; /* Красная рамка, толщина 2 пикселя */
+            position: relative; /* Для позиционирования внутреннего блока */
+            margin: 50px auto; /* Отступ сверху и выравнивание по центру */
+        }
+
+        .inner-box {
+            width: 200px; /* Ширина внутреннего прямоугольника */
+            height: 200px; /* Высота внутреннего прямоугольника */
+            border: 2px solid green; /* Зелёная рамка, толщина 2 пикселя */
+            position: absolute; /* Абсолютное позиционирование внутри внешнего блока */
+            top: 50px; /* Отступ сверху от края внешнего блока */
+            left: 50px; /* Отступ слева от края внешнего блока */
+        }
+ .outer-box1 {
+            width: 400px; /* Ширина внешнего прямоугольника */
+            height: 400px; /* Высота внешнего прямоугольника */
+            border: 2px solid red; /* Красная рамка, толщина 2 пикселя */
+            position: relative; /* Для позиционирования внутреннего блока */
+            margin: 50px auto; /* Отступ сверху и выравнивание по центру */
+        }
+
+ .inner-box1 {
+            width: 200px; /* Ширина внутреннего прямоугольника */
+            height: 300px; /* Высота внутреннего прямоугольника */
+            border: 2px solid green; /* Зелёная рамка, толщина 2 пикселя */
+            position: absolute; /* Абсолютное позиционирование внутри внешнего блока */
+            top: 70px; /* Отступ сверху от края внешнего блока */
+            left: 100px; /* Отступ слева от края внешнего блока */
+        }
+ .outer-frame1 {
+            width: 400px; /* Ширина внешнего прямоугольника */
+            height: 400px; /* Высота внешнего прямоугольника */
+            border: 2px solid yellow; /* Жёлтая сплошная рамка, толщина 2 пикселя */
+            position: relative; /* Для позиционирования внутреннего блока */
+            margin: 50px auto; /* Отступ сверху и выравнивание по центру */
+        }
+
+ .inner-frame1 {
+            width: 250px; /* Ширина внутреннего прямоугольника */
+            height: 150px; /* Высота внутреннего прямоугольника */
+            border: 2px dashed purple; /* Фиолетовая пунктирная рамка, толщина 2 пикселя */
+            position: absolute; /* Абсолютное позиционирование внутри внешнего блока */
+            top: 100px; /* Отступ сверху от края внешнего блока */
+            left: 75px; /* Отступ слева от края внешнего блока */
+        }
+        .outer-frame2 {
+            width: 500px; /* Ширина внешнего прямоугольника */
+            height: 500px; /* Высота внешнего прямоугольника */
+            border: 1px solid yellow; /* Жёлтая сплошная рамка, толщина 1 пиксель */
+            position: relative; /* Для позиционирования внутреннего блока */
+            margin: 50px auto; /* Отступ сверху и выравнивание по центру */
+            box-sizing: border-box; /* Учёт рамки в общей ширине/высоте */
+        }
+
+        .inner-frame2 {
+            width: 200px; /* Ширина внутреннего прямоугольника */
+            height: 100px; /* Высота внутреннего прямоугольника */
+            border: 1px dashed purple; /* Фиолетовая пунктирная рамка, толщина 1 пиксель */
+            position: absolute; /* Абсолютное позиционирование внутри внешнего блока */
+            top: 200px; /* Отступ сверху от края внешнего блока */
+            left: 150px; /* Отступ слева от края внешнего блока */
+        }
+.outer-frame3 {
+  width: 300px; /* Ширина внешнего контейнера */
+  height: 200px; /* Высота внешнего контейнера */
+  border: 2px solid yellow; /* Сплошная жёлтая рамка */
+  position: relative; /* Для позиционирования внутреннего элемента */
+  margin: 50px auto; /* Отступы и центрирование */
+}
+
+.inner-frame3 {
+  width: 150px; /* Ширина внутреннего контейнера (меньше внешнего) */
+  height: 100px; /* Высота внутреннего контейнера */
+  border: 1px dotted purple; /* Пунктирная фиолетовая рамка */
+  position: absolute; /* Абсолютное позиционирование внутри внешнего контейнера */
+  top: 50%; /* Центрируем по вертикали */
+  left: 50%; /* Центрируем по горизонтали */
+  transform: translate(-50%, -50%); /* Корректировка центрирования */
+}
+.outer-frame4 {
+  width: 300px; /* Ширина внешнего прямоугольника */
+  height: 200px; /* Высота внешнего прямоугольника */
+  border: 2px solid yellow; /* Сплошная жёлтая рамка */
+  position: relative; /* Для позиционирования внутреннего элемента */
+  margin: 50px auto; /* Центрируем и добавляем отступ */
+}
+
+.inner-frame4 {
+  width: 150px; /* Ширина внутреннего прямоугольника */
+  height: 100px; /* Высота внутреннего прямоугольника */
+  border: 1px dotted purple; /* Пунктирная фиолетовая рамка */
+  position: absolute; /* Абсолютное позиционирование внутри внешнего контейнера */
+  top: 50%; /* Центрируем по вертикали */
+  left: 50%; /* Центрируем по горизонтали */
+  transform: translate(-50%, -50%); /* Корректируем центрирование */
+}
+.outer-frame5 {
+  width: 400px; /* Ширина внешнего прямоугольника */
+  height: 150px; /* Высота внешнего прямоугольника */
+  border: 2px solid yellow; /* Сплошная жёлтая рамка */
+  position: relative; /* Для позиционирования внутреннего элемента */
+  margin: 50px auto; /* Центрируем и добавляем отступ */
+}
+
+.inner-frame5 {
+  width: 200px; /* Ширина внутреннего прямоугольника */
+  height: 100px; /* Высота внутреннего прямоугольника */
+  border: 1px dotted purple; /* Пунктирная фиолетовая рамка */
+  position: absolute; /* Абсолютное позиционирование внутри внешнего контейнера */
+  top: 25%; /* Смещение сверху для центрирования */
+  left: 30%; /* Смещение слева для центрирования */
+}
+.text-block {
+  border: 2px solid red; /* Красная сплошная рамка толщиной 2 пикселя */
+  padding: 20px; /* Отступы внутри блока (между рамкой и текстом) */
+  margin: 20px; /* Отступы снаружи блока */
+  width: 300px; /* Ширина блока (можно изменить по необходимости) */
+}
+
+.text-block p {
+  margin: 0; /* Убираем стандартные отступы у абзаца */
+  line-height: 1.6; /* Межстрочный интервал для лучшей читаемости */
+}
+.block-green {
+  border: 1px solid green; /* Тонкая зелёная рамка */
+  padding: 15px; /* Отступы внутри блока */
+  margin-bottom: 20px; /* Отступ снизу */
+  width: 500px; /* Ширина блока */
+}
+
+.block-red {
+  border: 2px solid red; /* Толстая красная рамка */
+  padding: 15px; /* Отступы внутри блока */
+  width: 500px; /* Ширина блока */
+}
+
+.block-green p, .block-red p {
+  margin: 0; /* Убираем отступы у абзаца */
+  line-height: 1.6; /* Межстрочный интервал */
+}
+.elem6 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline-block; /* Ключевое свойство для строчно-блочного поведения */
+}
+.parent {
+  border: 2px solid red; /* Красная рамка — родительский блок */
+  display: flex;         /* Включаем Flexbox для родителя */
+  flex-direction: column; /* Располагаем дочерние элементы вертикально */
+  align-items: center;   /* Центрируем дочерние элементы по горизонтали */
+  justify-content: center; /* Центрируем дочерние элементы по вертикали (опционально) */
+  height: 400px;         /* Высота родительского блока (регулируйте по необходимости) */
+  width: 400px;          /* Ширина родительского блока (регулируйте по необходимости) */
+}
+
+.child {
+  border: 2px solid green; /* Зелёная рамка — дочерние блоки */
+  margin: 10px 0;         /* Отступы между блоками (по вертикали) */
+}
+
+.child-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.child-2 {
+  width: 200px;
+  height: 100px;
+}
+
+.child-3 {
+  width: 300px;
+  height: 100px;
+}
+
+.parent1 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: center; /* Добавляем это свойство */
+}
+.parent2 {
+  padding: 10px 0; /* Исходное значение padding (сверху и снизу) */
+  border: 1px solid red;
+  text-align: right; /* Выравнивание по правому краю */
+  padding-right: 20px; /* Добавляем правый отступ (например, 20px) */
+}
+.parent3 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: center; /* Центрируем дочерние элементы по горизонтали */
+}
+
+.child4 {
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block; /* Преобразуем в строчно-блочные элементы */
+  margin: 5px; /* Задаём горизонтальный (и вертикальный) margin в 5px */
+}
+.parent4 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: right;
+}
+
+.child5 {
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-right: 20px; /* Отступ справа от дочернего элемента (значение можно менять) */
+}
+.parent4 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: right; /* Выравнивание ссылки по правому краю родителя */
+}
+
+.child6 {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block; /* Преобразование в строчно-блочный элемент */
+  text-align: center; /* Выравнивание текста внутри ссылки по центру */
+}
+.parent5 {
+    display: flex;
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+
+
+
