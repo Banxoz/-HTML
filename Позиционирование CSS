@@ -1,0 +1,357 @@
+.container {
+  position: relative; /* Обязательно для абсолютного позиционирования дочерних элементов */
+  width: 100%;
+  height: 300px; /* Высота может быть любой, зависит от макета */
+}
+.block.red {
+  position: absolute;
+  top: 50px;    /* Отступ от верхнего края контейнера */
+  left: 50px;   /* Отступ от левого края контейнера */
+  width: 50px;  /* Ширина блока */
+  height: 50px; /* Высота блока */
+  border: 1px solid red; /* Рамка красного цвета */
+}
+.block.blue {
+  position: absolute;
+  top: 100px;   /* Больший отступ сверху, чем у красного блока */
+  left: 100px;  /* Больший отступ слева, чем у красного блока */
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue; /* Рамка синего цвета */
+}
+.block.green {
+  position: absolute;
+  top: 150px;   /* Ещё больший отступ сверху */
+  left: 150px;  /* Ещё больший отступ слева */
+  width: 50px;
+  height: 50px;
+  border: 1px solid green; /* Рамка зелёного цвета */
+}
+.container1 {
+  position: relative; /* Обязательно для абсолютного позиционирования дочерних элементов */
+  width: 100%;
+  height: 200px; /* Высота может быть любой, зависит от макета */
+}
+.block.red1 {
+  position: absolute;
+  top: 50px;    /* Отступ от верхнего края контейнера */
+  left: 50px;   /* Отступ от левого края контейнера */
+  width: 50px;  /* Ширина блока */
+  height: 50px; /* Высота блока */
+  border: 1px solid red; /* Рамка красного цвета */
+}
+.block.blue1 {
+  position: absolute;
+  top: 50px;    /* Тот же отступ сверху, чтобы блоки были в одной линии */
+  left: 120px;  /* Отступ больше, чем у красного блока (50px + ширина блока + отступ) */
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue; /* Рамка синего цвета */
+}
+.block.green1 {
+  position: absolute;
+  top: 50px;    /* Тот же отступ сверху */
+  left: 190px;  /* Ещё больший отступ (120px + ширина блока + отступ) */
+  width: 50px;
+  height: 50px;
+  border: 1px solid green; /* Рамка зелёного цвета */
+}
+.container2 {
+  position: relative; /* Контейнер становится точкой отсчёта для абсолютного позиционирования */
+  width: 300px;      /* Ширина контейнера (может быть любой) */
+  height: 200px;     /* Высота контейнера (должна быть достаточной для размещения блоков) */
+}
+.block.red2 {
+  position: absolute;
+  top: 50px;    /* Отступ от верхнего края контейнера */
+  left: 50px;   /* Отступ от левого края контейнера */
+  width: 80px;  /* Ширина блока */
+  height: 80px; /* Высота блока */
+  border: 1px solid red; /* Рамка красного цвета */
+}
+.block.blue2 {
+  position: absolute;
+  top: 70px;    /* Немного ниже красного блока */
+  left: 80px;   /* Сдвинут вправо относительно красного блока */
+  width: 80px;
+  height: 80px;
+  border: 1px solid blue; /* Рамка синего цвета */
+}
+.block.green2 {
+  position: absolute;
+  top: 100px;   /* Ниже красного и синего блоков */
+  left: 110px;  /* Сдвинут вправо */
+  width: 80px;
+  height: 80px;
+  border: 1px solid green; /* Рамка зелёного цвета */
+}
+.container3 {
+  position: relative; /* Контейнер становится точкой отсчёта для абсолютного позиционирования */
+  width: 300px;      /* Ширина контейнера (может быть любой) */
+  height: 200px;     /* Высота контейнера (должна быть достаточной для размещения блоков) */
+  margin: 50px;      /* Отступы вокруг контейнера для лучшей визуализации */
+}
+
+.block.red3 {
+  position: absolute;
+  top: 30px;    /* Отступ от верхнего края контейнера */
+  left: 30px;   /* Отступ от левого края контейнера */
+  width: 80px;  /* Ширина блока */
+  height: 80px; /* Высота блока */
+  background-color: red; /* Цвет фона — красный */
+  z-index: 1;   /* Уровень наложения (чтобы был «ниже» синего блока) */
+}
+
+.block.blue3 {
+  position: absolute;
+  top: 50px;    /* Немного ниже красного блока */
+  left: 60px;   /* Сдвинут вправо относительно красного блока */
+  width: 80px;
+  height: 80px;
+  background-color: blue; /* Цвет фона — синий */
+  z-index: 2;   /* Уровень наложения (выше красного блока) */
+}
+
+.block.green3 {
+  position: absolute;
+  top: 80px;   /* Ниже красного и синего блоков */
+  left: 90px;  /* Сдвинут вправо */
+  width: 80px;
+  height: 80px;
+  background-color: green; /* Цвет фона — зелёный */
+  z-index: 3;  /* Уровень наложения (выше всех) */
+}
+
+#elem1 {
+  position: relative; /* относительное позиционирование */
+  top: -20px;        /* смещаем вверх на 20px */
+  left: 0px;         /* без смещения по горизонтали */
+  width: 100px;
+  height: 100px;
+  background-color: #FF8888;
+}
+
+#elem2 {
+  position: relative; /* относительное позиционирование */
+  top: -40px;        /* смещаем вверх на 40px (сильнее, чем elem1) */
+  left: 20px;        /* смещаем вправо на 20px */
+  width: 100px;
+  height: 100px;
+  background-color: #7E89EB;
+}
+
+#elem3 {
+  position: relative; /* относительное позиционирование */
+  top: -60px;        /* смещаем вверх на 60px (максимально) */
+  left: 40px;        /* смещаем вправо на 40px (больше, чем elem2) */
+  width: 100px;
+  height: 100px;
+  background-color: #4DEE99;
+}
+.main-block {
+  width: 300px; /* фиксированная ширина */
+  margin: 0 auto; /* центрирует блок по горизонтали */
+  border: 1px solid black; /* для визуализации */
+}
+.smiley {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: lightgreen;
+   position: relative;
+}
+.smiley::before, .smiley::after {
+   content: '';
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: white;
+}
+.smiley::before {
+   top: 20px;
+   left: 20px;
+}
+.smiley::after {
+   top: 20px;
+   right: 20px;
+}
+.smiley .nose {
+   position: absolute;
+   top: 50px;
+   left: 40px;
+   width: 10px;
+   height: 10px;
+   background-color: white;
+}
+.smiley .mouth {
+   position: absolute;
+   bottom: 20px;
+   left: 35px;
+   width: 30px;
+   height: 2px;
+   background-color: white;
+}
+.smiley {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  position: relative;
+}
+.smiley {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: lightgreen;
+   position: relative;
+}
+.smiley::before, .smiley::after {
+   content: '';
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: white;
+}
+.smiley::before {
+   top: 20px;
+   left: 20px;
+}
+.smiley::after {
+   top: 20px;
+   right: 20px;
+}
+.smiley .nose {
+   position: absolute;
+   top: 50px;
+   left: 40px;
+   width: 10px;
+   height: 10px;
+   background-color: white;
+}
+.smiley .mouth {
+   position: absolute;
+   bottom: 20px;
+   left: 35px;
+   width: 30px;
+   height: 2px;
+   background-color: white;
+}
+
+.smiley {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  position: relative;
+}
+
+.smiley::before, .smiley::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+
+.smiley .nose1 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+.smiley .mouth1 {
+  position: absolute;
+  bottom: 20px;
+  left: 35px;
+  width: 30px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotate(30deg);
+}
+
+.parent {
+  position: absolute; /* абсолютное позиционирование родителя */
+  width: 400px; /* ширина 400px */
+  height: 400px; /* высота 400px (квадрат) */
+  border: 1px solid black; /* рамка для визуализации */
+}
+
+.child-top-right {
+  position: absolute; /* абсолютное позиционирование дочернего элемента */
+  width: 50px; /* ширина 50px */
+  height: 50px; /* высота 50px (квадрат) */
+  top: 0; /* прижимаем к верхнему краю родителя */
+  right: 0; /* прижимаем к правому краю родителя */
+  background-color: blue; /* фон для визуализации */
+}
+
+.child-bottom-left {
+  position: absolute; /* абсолютное позиционирование дочернего элемента */
+  width: 50px; /* ширина 50px */
+  height: 50px; /* высота 50px (квадрат) */
+  bottom: 0; /* прижимаем к нижнему краю родителя */
+  left: 0; /* прижимаем к левому краю родителя */
+  background-color: red; /* фон для визуализации */
+}
+#center-block {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  bottom: 100px;
+  left: 100px;
+  border: 1px solid green; /* для визуализации блока */
+}
+
+#offset-block {
+  position: absolute;
+  top: 100px;      /* отступ сверху — 100px */
+  right: 200px;    /* отступ справа — 200px */
+  bottom: 50px;    /* отступ снизу — 50px */
+  left: 10px;      /* отступ слева — 10px */
+  border: 1px solid green; /* для визуализации блока */
+}
+#wrapper {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid green;
+    text-align: justify;
+}
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #C4CD14;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    border-bottom: 1px solid #A3AA11;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#text {
+    width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    border: 1px solid #C4CD14;
+}
+
