@@ -1,0 +1,303 @@
+#parent {
+	display: grid;
+	grid-template-columns: 50px 100px 200px 250px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent1 {
+  display: grid;
+  grid-template-columns: 200px 200px; 
+  border: 2px solid #696989;
+  padding: 10px;
+  width: 400px; 
+}
+
+#parent1 > div {
+  padding: 10px;
+  border: 1px solid #696989;
+}
+#parent2 {
+  display: grid;
+  grid-template-columns: 100px 150px 200px; /* задаём ширину трёх столбцов */
+  width: 450px; /* общая ширина контейнера */
+  border: 2px solid #696989; /* рамка (опционально) */
+  padding: 10px; /* отступы внутри контейнера (опционально) */
+}
+#parent3 {
+  display: grid;
+  grid-template-columns: 200px 200px; 
+  border: 2px solid #696989;
+  padding: 10px;
+  width: 450px; 
+}
+
+#parent3 > div {
+  padding: 10px;
+  border: 1px solid #696989;
+}
+#parent4 {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent4 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent5 {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 400px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 1000px;
+}
+#parent5 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent6 {
+	display: grid;
+	grid-template-columns: 200px 200px 350px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 750px;
+}
+#parent6 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent7 {
+	display: grid;
+	grid-template-columns: 100px 150px  250px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 500px;
+}
+#parent7 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent8 {
+	display: grid;
+	grid-template-columns: 100px 150px  150px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#parent8 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent9 {
+	display: grid;
+	grid-template-columns: 100px 200px  300px 100px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 700px;
+}
+#parent9 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent10 {
+	display: grid;
+	grid-template-columns: 80px 160px   160px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#parent10 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent11 {
+	display: grid;
+	grid-template-columns: 100px 244px 160px 320px 640px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 1300px;
+}
+#parent11 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent12 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid #696989;
+  padding: 10px;
+  width: 1350px; 
+  gap: 10px; 
+}
+#parent12 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent13 {
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 2frpx 2frpx 2frpx;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 1300px;
+}
+#parent13 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent14 {
+	display: grid;
+	grid-template-columns: 200px auto;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 700px;
+}
+#parent14 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent15 {
+	display: grid;
+	grid-template-columns: 100px 150px auto;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 700px;
+}
+#parent15 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent16 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 
+		1fr)); 
+	border: 2px solid #696989;
+	padding: 10px;
+}
+#parent16 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent17 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 
+		1fr)); 
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#parent17 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent18 {
+	display: grid;
+	grid-template-rows: repeat(auto-fill, 100px 150px 200px);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+	height: 450px;
+}
+#parent18 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+.grid-container {
+  display: grid; /* Включаем режим грид-разметки */
+  grid-template-columns: repeat(3, 1fr); /* 3 столбца равной ширины */
+  gap: 10px; /* Отступы между элементами (по горизонтали и вертикали) */
+  border: 2px solid #696989; /* Рамка вокруг контейнера (опционально) */
+  padding: 10px; /* Внутренние отступы контейнера (опционально) */
+  width: 300px; /* Ширина контейнера (можно адаптировать) */
+}
+
+.grid-container > div {
+  padding: 10px; /* Отступы внутри каждого блока */
+  border: 1px solid #696989; /* Рамка вокруг каждого блока (опционально) */
+  text-align: center; /* Центрируем текст внутри блока */
+  box-sizing: border-box; /* Учитываем отступы и рамки в общей ширине */
+}
+#parent19 {
+	display: grid;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 400px;
+	height: 300px;
+}
+#parent19 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1 {
+	grid-column: 1 / 2;
+}
+#elem2 {
+	grid-column: 2 / 3;
+}
+#elem3 {
+	grid-column: 3 / 4;
+}
+#elem4 {
+	grid-column: 1 / 4;
+}
+#parent20 {
+	display: grid;
+	column-gap: 20px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent20 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent21 {
+	display: grid;
+	column-gap: 25px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent21 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent22 {
+	display: grid;
+	column-gap: 10px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent22 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent23 {
+	display: grid;
+	column-gap: 10px;
+	row-gap 5px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent23 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+
