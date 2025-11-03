@@ -1,0 +1,140 @@
+"use strict";
+alert("Nikita Ovsuannekov");
+alert('text'); // комментарий
+alert('text');
+/*
+	комментарий
+*/
+alert('text');
+let num=123;
+alert(num)
+let a = 10;
+let b = 2;
+let c = 3;
+let d = 1, e = 2, f = 3;
+let g, h, i;
+g = 1;
+h = 2;
+i = 3;
+alert(a);
+a=20;
+alert(a);
+a=1+2+3;
+alert(a);
+a=10;
+alert(a+b);
+alert(a-b);
+alert(a*b);
+alert(a/b);
+nemei=10
+d=5
+let result=nemei+d;
+alert("result = "result);
+a=1;
+b=2;
+c=3;
+alert("a+b+c " a+b+c);
+a=10;
+b=5;
+c=a-b;
+d=7;
+result=d+c;
+alert("result=d+c =" result);
+ a = 5 + 5 * 3;
+alert(a);
+a = 5 + 5 * 3 + 3;
+alert(a);
+a = 8 / 2 + 2;
+alert(a);
+a = 8 + 2 / 2;
+alert(a);
+a = 8 / 2 * 2;
+alert(a);
+a = 8 * 4 / 2 / 2;
+alert(a);
+a=1.5;
+b=0.75;
+alert(a+b);
+a=-100;
+alert(a);
+alert(-a);
+a = 13;
+b = 5;
+alert(a%b);
+alert(2**10);
+let str;
+str="!!!";
+alert(str);
+let java="java";
+let script="script";
+alert=(java+script);
+str = 'abcde';
+alert(str.length);
+str=`a
+def` b`
+def` `c
+def`;
+let a = undefined;
+alert(a); 
+let a = null;
+alert(a); // выведет null
+let tre=true;
+let fale=false;
+alert(tre);
+alert(fale);
+alert(java*script);
+alert( 10 / 0); 
+alert(-10 / 0); 
+let num1 = 123;
+let num2 = 456;
+console.log(num1, num2);
+const PI = 3.14;
+a = '5' + '2';
+alert(a);
+ a = '5' + 2;
+alert(a);
+a = 5 + '2';
+alert(a);
+a = 5 + 2;
+alert(a);
+a = '5' - '2';
+alert(a);
+a = '5' / '2';
+alert(a);
+a = '5' % '2';
+alert(a);
+a = '5s' * '2';
+alert(a);
+a = '5s' + '2';
+alert(a);
+a = (-'5') + (-'2');
+alert(a);
+a = '5' * 1 + '2' * 1;
+alert(a);
+a = '5' * '1' + '2' * '1';
+alert(a);
+a = '' + 3 + 1;
+alert(a);
+let kvz = parseFloat('6px');
+let vkz = parseFloat('5px');
+alert(kvz+vkz);
+let numm1 = 1;
+let numm2 = 2;
+alert(String(numm1) + String(numm2)); 
+let test = Boolean(3);
+alert(test);
+let test1 = Boolean(0);
+alert(test1);
+let test2 = Boolean(-1);
+alert(test2);
+let test3 = Boolean(-0);
+alert(test3);
+let test4 = Boolean(+0);
+alert(test4);
+let str1 = 'abcde';
+alert(str1[str1.length - 1]);
+let test = '12345'; 
+alert(Number(test[0]) + Number(test[1])); 
+alert('Ваш возраст: ' + prompt('Ваш возраст?'));
+
+
